@@ -1,5 +1,7 @@
 # GameBoy starter
 
+To find base project go to branch `starter`
+
 ## What you will need
 
 - [GameBoy Development Kit (GBDK)](https://github.com/Zal0/gbdk-2020/releases)
