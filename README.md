@@ -15,6 +15,11 @@ Also you'll need to update the following files with the correct paths
 
     Note: If you are using VS Code to programming make sure to also update the `includePath` in `.vscode/c_cpp_properties.json`
 
+## Files
+
+- `make.bat` - Script that generates the `.gb` file that can run inside the `BGB`
+- `watch.bat` - Script file that make you `BGB` watch for changes in the `.gb` file and reload the ROM
+
 ## Knowledge Base
 
 - [Programming Game Boy Games using GBDK](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/)
