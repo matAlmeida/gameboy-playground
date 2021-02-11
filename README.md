@@ -14,3 +14,10 @@ Also you'll need to update the following files with the correct paths
 - `watch.bat` - Update the `BGB.exe` path
 
     Note: If you are using VS Code to programming make sure to also update the `includePath` in `.vscode/c_cpp_properties.json`
+
+## Knowledge Base
+
+- [Programming Game Boy Games using GBDK](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/)
+- [Game Boy Pan Docs](https://gbdev.io/pandocs/)
+- [Gaming Monsters Write your own Game Boy Games Playlist](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
+- [Modern Vintage Gamer](https://www.youtube.com/watch?v=FzPTK91EJY8)
