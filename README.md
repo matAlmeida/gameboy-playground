@@ -1,4 +1,4 @@
-# GameBoy starter
+# GameBoy Playground
 
 To find base project go to branch `starter`
 
