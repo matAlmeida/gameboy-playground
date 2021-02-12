@@ -33,16 +33,36 @@ void main() {
 
     while (1)
     {
+        /* Option Keys -> Shift & Return keys on Keyboard */
+        if((joypad() & J_SELECT)) {
+
+        }
+        if((joypad() & J_START)) {
+
+        }
+
+        /* DPAD Keys -> Arrow Keys on Keyboard */
         if ((joypad() & J_UP) || is_jumping == 1) {
             air_jump(&is_jumping, &current_y_speed, &current_floor_y, 0, face_position);
+        }
+        if (joypad() & J_DOWN) {
+
+        }
+        if (joypad() & J_RIGHT) {
+            face_position[0] = face_position[0] + AIR_GRAVITY;
+            move_sprite(0,face_position[0],face_position[1]);
         }
         if (joypad() & J_LEFT) {
             face_position[0] = face_position[0] - AIR_GRAVITY;
             move_sprite(0,face_position[0],face_position[1]);
         }
-        if (joypad() & J_RIGHT) {
-            face_position[0] = face_position[0] + AIR_GRAVITY;
-            move_sprite(0,face_position[0],face_position[1]);
+
+        /* Action Keys -> A & S keys on Keyboard */
+        if((joypad() & J_B)) {
+
+        }
+        if((joypad() & J_A)) {
+
         }
 
         delay_r(4);
