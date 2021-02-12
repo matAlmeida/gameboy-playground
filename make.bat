@@ -11,7 +11,11 @@ C:\GB\gbdk\bin\lcc -Wa-l -Wl-m -Wf--debug -Wl-y -DUSE_SFR_FOR_REG -c .\libs\jump
 
 :: Main compilation
 C:\GB\gbdk\bin\lcc -Wa-l -Wl-m -Wf--debug -Wl-y -DUSE_SFR_FOR_REG -c -o main.o main.c
-C:\GB\gbdk\bin\lcc -Wa-l -Wl-m -Wf--debug -Wl-y -DUSE_SFR_FOR_REG -o main.gb main.o math.o delay.o jump.o
+C:\GB\gbdk\bin\lcc -Wa-l -Wl-m -Wf--debug -Wl-y -DUSE_SFR_FOR_REG -o main.gb^
+    main.o^
+    math.o^
+    delay.o^
+    jump.o
 
 move    "*.adb" "..\dist"   >nul
 move    "*.asm" "..\dist"   >nul
