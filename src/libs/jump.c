@@ -27,7 +27,7 @@ void jump(BYTE* jump_flag, UINT8* sprit_y_speed, INT16* current_floor, UINT8 spr
         move_sprite(sprite_code, sprite_positions[0], sprite_positions[1]);
     }
 
-    *sprit_y_speed += gravity;
+    *sprit_y_speed -= gravity;
 }
 
 void air_jump(BYTE* jump_flag, UINT8* sprit_y_speed, INT16* current_floor, UINT8 sprite_code, UINT8 sprite_positions[2]) {
