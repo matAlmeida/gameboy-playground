@@ -4,6 +4,7 @@
         "math.h": "c",
         "delay.h": "c",
         "screen.h": "c",
-        "acceleration.h": "c"
+        "acceleration.h": "c",
+        "sprite.h": "c"
     }
 }
